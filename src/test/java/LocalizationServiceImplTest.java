@@ -11,8 +11,8 @@ public class LocalizationServiceImplTest {
 
     final private LocalizationServiceImpl locService = new LocalizationServiceImpl();
 
-    public static final String rus = "Добро пожаловать";
-    public static final String defaultMessage = "Welcome";
+    private static final String rus = "Добро пожаловать";
+    private static final String defaultMessage = "Welcome";
 
     static final private Country russia = Country.RUSSIA;
     static final private Country usa = Country.USA;
